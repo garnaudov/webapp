@@ -106,6 +106,9 @@ div  {
     .categories-container > .main-categories .all-categories {
         width: 60% !important;
     }
+    .categories-text {
+        width: 100%;
+    }
 }
 
 @media (max-width: 542px) {
@@ -142,6 +145,15 @@ div  {
         width: 98% !important;
         max-width: 198px !important;
     }
+    #main_description {
+        font-size: 1.05em !important;
+        /*padding-bottom: 20px !importnat;*/
+    }
+    #short_description {
+        font-size: 1.5em !important;
+        padding-top: 20px !important;
+        
+    }
 }
 
 @media (max-width: 300px) {
@@ -160,6 +172,8 @@ div  {
         width: 98% !important;
         max-width: 198px !important;
     }
+
+    
 }
 @media (max-width: 768px) {
     
@@ -173,6 +187,9 @@ div  {
         margin-left: 7px !important;
         padding-left: 20px !important;
         border-left: 2px solid #d9edf7 !important;
+    }
+    div.categories-text {
+        width: 120%;
     }
 }
             
