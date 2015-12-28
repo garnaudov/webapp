@@ -6,7 +6,7 @@ div  {
 .navigation_bar  {
 
     color: white;
-    font-size: large;
+    font-size: 1.08em !important;
     display: inline-block;
 }
 
@@ -47,7 +47,7 @@ div  {
     margin-top: 13px;
 }
 
-#home-video {
+/*#home-video {
     position: absolute;
     left:0;
     top:0;
@@ -58,6 +58,7 @@ div  {
     z-index: -1;
     visibility: visible;
 }
+*/
 
 @media (max-width: 1200px) {
     
@@ -117,7 +118,6 @@ div  {
     }
     .categories-container > .main-categories .all-categories img {
         min-width: 40% !important;
-        height: 25% !important;
     }
     #comunication-logo {
         min-height: 68% !important;
@@ -126,6 +126,41 @@ div  {
     }
 }
 
+@media (max-width: 390px) {
+    .categories-container > .main-categories {
+        margin-left: 50px !important;
+    }
+    .categories-container > .main-categories .all-categories {
+        width: 70% !important;
+        height: 270px !important;
+    }
+    .categories-container > .main-categories .all-categories img {
+        min-width: 40% !important;
+    }
+    #comunication-logo {
+        min-height: 68% !important;
+        width: 98% !important;
+        max-width: 198px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    .categories-container > .main-categories {
+        margin-left: 20px !important;
+    }
+    .categories-container > .main-categories .all-categories {
+        width: 70% !important;
+        height: 270px !important;
+    }
+    .categories-container > .main-categories .all-categories img {
+        min-width: 40% !important;
+    }
+    #comunication-logo {
+        min-height: 68% !important;
+        width: 98% !important;
+        max-width: 198px !important;
+    }
+}
 @media (max-width: 768px) {
     
     #sign_in {
@@ -168,7 +203,7 @@ div  {
 #sign_in {
     margin: 12px;
     margin-top: 15px;
-    margin-left: 300px;
+    margin-left: 407px;
 }
 
 #sign_up {
@@ -193,7 +228,7 @@ div  {
 }
 
 #main_description {
-    font-size: 21px;
+    font-size: 1.3em;
     padding-top: 55px;
     padding-bottom: 128px;
     
@@ -263,7 +298,11 @@ div  {
 
 .logo-texts {
     text-align: center;
-    font-size: large;
+    font-size: 1.125em;
     padding-top: 10px;
     
+}
+
+#icon-categories {
+    padding-right: 10px;
 }
