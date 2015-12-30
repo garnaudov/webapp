@@ -96,20 +96,21 @@ echo '
 		<title>Bootstrap Login Form</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="login-css/bootstrap.min.css" rel="stylesheet">
+		<link href="login-assets/login-css/bootstrap.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="login-css/styles.css" rel="stylesheet">
+		<link href="login-assets/login-css/styles.css" rel="stylesheet">
 	</head>
-	<body>
+	<body background="backimg.jpg">
 <!--login modal-->
+<img src="backimg.jpg" id="back-img">
 <div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog">
   <div class="modal-content login-container">
       <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-          <h1 class="text-center">Login</h1>
+          <h1 class="text-center" id="login-text">Влезте</h1>
       </div>
       <div class="modal-body">
           <form class="form col-md-12 center-block">
@@ -121,7 +122,9 @@ echo '
             </div>
             <div class="form-group">
               <button class="btn btn-primary btn-lg btn-block">Влезте</button>
-              <span class="pull-right"><a href="register.php">Регистритрайте се</a></span>
+              <span class="pull-right register-text"><a href="register.php">Регистритрайте се</a></span>
+              <span class="pull-left register-text"><a href="#">Забравена парола</a></span>
+              <span class="pull-left register-text" id="activate-mail"><a href="#">Препрати активиращ и-мейл</a></span>
             </div>
           </form>
       </div>
