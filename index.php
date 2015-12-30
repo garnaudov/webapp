@@ -1,3 +1,14 @@
+<?php
+/*
+UserCake Version: 2.0.2
+http://usercake.com
+*/
+
+require_once("models/config.php");
+if (!securePage($_SERVER['PHP_SELF'])){die();}
+require_once("models/header.php");
+
+?>
 <!DOCTYPE html>
 <html lang="bg">
   <head>
@@ -5,15 +16,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Home</title>
 
+	<?php include("left-nav.php"); ?>
     <!-- Bootstrap -->
+	
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -21,31 +32,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="navigation_bar navbar navbar-dafault" id="nav">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive_menu">
-                            <span class="sr-only">Открий навигация</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="responsive_menu">
-                        <div class="home navigation_bar nav navbar-nav" >
-                            <ul class="nav navbar-nav">
-                                <a href="#"><li class="home navigation_bar" id="home_but" >Начало</li></a>
-                                <a href="#"><li class="navigation_bar" id="for_site">За сайта</li></a>
-                                <a href="#"><li class="navigation_bar" id="categories">Категории</li></a>
-                                <a href="#"><li class="navigation_bar" id="sign_in">Влезте</li></a>
-                                <a href="registration-form/index.html"><li class="navigation_bar" id="sign_up">Регистрирайте се</li></a>
-                            </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        
  <!--   <video id="home-video" loop autoplay muted>
         <source src="video.mp4" type="video/mp4">
         Your browser does not support the video tag.
@@ -121,14 +108,11 @@
     </div>
 
 </div>
-      
-      
-      
-          
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.js"></script>
   </body>
-</html>
+</html>'
+
