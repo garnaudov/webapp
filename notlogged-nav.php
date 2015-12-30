@@ -1,4 +1,4 @@
-﻿    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
 	
@@ -21,8 +21,10 @@
                                 <a href="#"><li class="navigation_bar" id="categories">Категории</li></a>
                                 <a href="login.php"><li class="navigation_bar" id="sign_in">Влезте</li></a>
                                 <a href="register.php"><li class="navigation_bar" id="sign_up">Регистрирайте се</li></a>
+<!--
 								<a href="resend-activation.php"><li class="navigation_bar" id="sign_up">Препрати активиращ мейл </li></a>
 								<a href="forgot-password.php"><li class="navigation_bar" id="sign_up">Забравена парола</li></a>
+-->
                             </ul>
                     </div>
                 </div>

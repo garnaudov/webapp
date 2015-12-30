@@ -56,11 +56,12 @@ body {
     top:0;
     right: 0;
     left: 0;
-    width: ;
-    height: ;                      /*******Video widht/height********/
+    min-width: 100%;
+    min-height: 100%;                      /*******Video widht/height********/
     z-index: -1;
     visibility: visible;
 }
+
 
 @media (max-width: 1200px) {
     
