@@ -50,18 +50,17 @@ body {
     margin-top: 13px;
 }
 
-/*#home-video {
+#home-video {
     position: absolute;
     left:0;
     top:0;
     right: 0;
     left: 0;
-    min-width: 100%;
-    min-height: 100%;
+    width: ;
+    height: ;                      /*******Video widht/height********/
     z-index: -1;
     visibility: visible;
 }
-*/
 
 @media (max-width: 1200px) {
     
@@ -194,6 +193,10 @@ body {
     }
     div.categories-text {
         width: 120%;
+    }
+    .navbar-nav a {
+        display: block;
+        width: 100%;
     }
 }
             
