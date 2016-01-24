@@ -283,6 +283,11 @@ body {
     
 }
 
+.home-page {
+    width: 100%;
+    height: 563px;
+    overflow: hidden;
+}
 
 .categories-container > .main-categories {
     width: 90%;
