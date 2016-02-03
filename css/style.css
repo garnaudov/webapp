@@ -102,6 +102,13 @@ body {
     }
 }
 
+@media (max-width: 862px) {
+    .car1 {
+        display: none;
+    }
+    
+}
+
 @media (max-width: 800px) {
     .categories-container {
         overflow: hidden !important;
