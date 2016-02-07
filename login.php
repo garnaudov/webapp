@@ -82,12 +82,12 @@ if(!empty($_POST))
 
 require_once("models/header.php");
 
-//include("left-nav.php");
+
 
 
 echo resultBlock($errors,$successes);
 
-echo '
+?>
 <!DOCTYPE html>
 <html lang="bg">
 	<head>
@@ -102,26 +102,25 @@ echo '
 		<![endif]-->
 		<link href="login-assets/login-css/styles.css" rel="stylesheet">
 	</head>
-	<body background="backimg.jpg">
 <!--login modal-->
-<img src="backimg.jpg" id="back-img">
-<div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div id="loginModal" class="modal show"  role="dialog" aria-hidden="true">
+<?php include("left-nav.php"); ?>
   <div class="modal-dialog">
   <div class="modal-content login-container">
       <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
           <h1 class="text-center" id="login-text">Влезте</h1>
       </div>
       <div class="modal-body">
-          <form class="form col-md-12 center-block">
+          <?php echo "<form class='form col-md-12 center-block' name='login' action='".$_SERVER['PHP_SELF']."' method='post'>" ?>
             <div class="form-group">
-              <input type="text" class="form-control input-lg" placeholder="Е-поща">
+              <input type='text' name='username' class="form-control input-lg" placeholder="Име">
             </div>
             <div class="form-group">
-              <input type="password" class="form-control input-lg" placeholder="Парола">
+              <input type='password' name='password' class="form-control input-lg" placeholder="Парола">
             </div>
             <div class="form-group">
-              <button class="btn btn-primary btn-lg btn-block">Влезте</button>
+              <button  type='submit' value='Login' class='submit' class="btn btn-primary btn-lg btn-block">Влезте</button>
               <span class="pull-right register-text"><a href="register.php">Регистритрайте се</a></span>
               <span class="pull-left register-text"><a href="#">Забравена парола</a></span>
               <span class="pull-left register-text" id="activate-mail"><a href="#">Препрати активиращ и-мейл</a></span>
@@ -136,5 +135,4 @@ echo '
 		<script src="login-java/bootstrap.min.js"></script>
 	</body>
 </html>
-'
-?>
+
