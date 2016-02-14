@@ -39,6 +39,7 @@ body {
 .navbar-collapse {
     background-color: #3760E6;
     width: inherit;
+    z-index: 999999;
 }
     
 .navbar-toggle {
@@ -50,6 +51,11 @@ body {
     margin-top: 13px;
 }
 
+.login-container {
+    z-index: 999;
+}
+/*
+
 #home-video {
     left:0;
     top:0;
@@ -58,12 +64,13 @@ body {
     min-width: 100%;
     min-height: 100%;
     
-    /*******Video widht/height********/
+    ******Video widht/height*******
     
     position: absolute;
     z-index: -1;
     visibility: visible;
 }
+*/
 
 
 @media (max-width: 1200px) {
@@ -165,6 +172,7 @@ body {
     #short_description {
         font-size: 1.5em !important;
         padding-top: 20px !important;
+        
         
     }
 }
@@ -270,7 +278,7 @@ body {
 #short_description {
     font-size: 2.55em;
     padding-top: 70px;
-    color: aliceblue;
+    color: black;
     
 }
 
@@ -280,6 +288,7 @@ body {
     padding-bottom: 115px;
     color: aliceblue;
     text-shadow: 1px 1px 1px #787a84;
+    color: black;
     
 }
 

@@ -18,11 +18,18 @@ require_once("models/header.php");
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Home</title>
 	
-    <!-- Bootstrap -->
+    <!-- Links -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    
+        <script src='js/wow.min.js'></script>
+
+    <script>
+        new WOW().init();
+    </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -58,8 +65,10 @@ require_once("models/header.php");
       </div>
       
       <div class="description" id="description_all">
-            <div class="description" id="short_description">Бързо. Лесно. Интуитивно.<br/></div>
-            <div class="description" id="main_description">
+            <div class="description fadeInDown animated " id="short_description">Бързо. Лесно. Интуитивно.<br/></div>
+            <div class="description wow fadeInDown animated " data-wwow-delay="900ms" id="main_description"
+                 style="-webkit-animation-duration: 3s;-moz-animation-duration: 3s;animation-duration: 3s;">
+                 
                       Добре дошли в BGapp- проект чрез който да изберете най-полезните,<br/>
                      най-интуитивните и функционални приложения.<br/>
                       В страниците ще откриете мобилен софтуер от всякакъв тип- от приложения,<br/>
@@ -73,58 +82,58 @@ require_once("models/header.php");
     </div>
         
     <div class="categories-container">
-        <div id="categories-tile"> 
+        <div id="categories-tile wow fadeInDown animated"> 
             <div class="categories_text"><i class="fa fa-th" id="icon-categories"></i>Категории</div>
         </div>   
             <div class="main-categories">
                 
                 <a href="pop-ups/business/index.html"><div class="all-categories" id="business">
-                    <img class="categories-logos" id="business-logo" src="Categories-logos/logo-business.png" alt="Business logo">
-                    <div class="logo-texts">Бизнес</div>
+                    <img class="categories-logos wow fadeInDown animated" id="business-logo" src="Categories-logos/logo-business.png" alt="Business logo">
+                    <div class="logo-texts wow fadeInDown animated">Бизнес</div>
                 </div></a>            
                 <a href="pop-ups/comunication/index.html"><div class="all-categories" id="socials">
-                    <img class="categories-logos" id="comunication-logo" src="Categories-logos/comunication-logo.png" alt="Comunication logo">
-                    <div class="logo-texts">Социални мрежи и комуникация</div>
+                    <img class="categories-logos wow fadeInDown animated" id="comunication-logo" src="Categories-logos/comunication-logo.png" alt="Comunication logo">
+                    <div class="logo-texts wow fadeInDown animated">Социални мрежи и комуникация</div>
                 </div>
                 <a href="pop-ups/useful-apps/index.html"><div class="all-categories" id="useful">
-                    <img class="categories-logos" id="useful-logo" src="Categories-logos/useful-logo.png" alt="Useful apps logo">
-                    <div class="logo-texts">Полезни приложения</div>
+                    <img class="categories-logos wow fadeInDown animated" id="useful-logo" src="Categories-logos/useful-logo.png" alt="Useful apps logo">
+                    <div class="logo-texts wow fadeInDown animated">Полезни приложения</div>
                 </div></a>
                 <a href="pop-ups/funny-apps/index.html"><div class="all-categories" id="entertainment">
-                    <img class="categories-logos" id="funny-logo" src="Categories-logos/funny-logo.png" alt="Funny apps logo">
-                    <div class="logo-texts">Забавление</div>
+                    <img class="categories-logos wow fadeInDown animated" id="funny-logo" src="Categories-logos/funny-logo.png" alt="Funny apps logo">
+                    <div class="logo-texts wow fadeInDown animated">Забавление</div>
                 </div></a>
                 <a href="pop-ups/photography/index.html"><div class="all-categories" id="photography">
-                    <img class="categories-logos" id="photography-logo" src="Categories-logos/photography-logo.png" alt="Photography logo">
-                    <div class="logo-texts">Снимки и фотография</div>
+                    <img class="categories-logos wow fadeInDown animated" id="photography-logo" src="Categories-logos/photography-logo.png" alt="Photography logo">
+                    <div class="logo-texts wow fadeInDown animated ">Снимки и фотография</div>
                 </div></a>
                 <a href="pop-ups/video/index.html"><div class="all-categories" id="video">
-                    <img class="categories-logos" id="video-logo" src="Categories-logos/video-logo.png" alt="Video logo">
-                    <div class="logo-texts">Видео и клипове</div>
+                    <img class="categories-logos wow fadeInDown animated" id="video-logo" src="Categories-logos/video-logo.png" alt="Video logo">
+                    <div class="logo-texts wow fadeInDown animated">Видео и клипове</div>
                 </div></a>            
                 <a href="pop-ups/education-apps/index.html"><div class="all-categories" id="education">
-                    <img class="categories-logos" id="education-logo" src="Categories-logos/education-logo.png" alt="Education apps logo">
-                    <div class="logo-texts">Образователни</div>
+                    <img class="categories-logos wow fadeInDown animated" id="education-logo" src="Categories-logos/education-logo.png" alt="Education apps logo">
+                    <div class="logo-texts wow fadeInDown animated">Образователни</div>
                 </div></a>
                 <a href="pop-ups/productivity/index.html"><div class="all-categories" id="productivity">
-                    <img class="categories-logos" id="productivity-logo" src="Categories-logos/productivity-logo.png" alt="Productivity logo">
-                    <div class="logo-texts">Производителност</div>
+                    <img class="categories-logos wow fadeInDown animated" id="productivity-logo" src="Categories-logos/productivity-logo.png" alt="Productivity logo">
+                    <div class="logo-texts wow fadeInDown animated">Производителност</div>
                 </div></a>
                 <a href="#"><div class="all-categories" id="music">
-                    <img class="categories-logos" id="music-logo" src="Categories-logos/music-logo.png" alt="Music logo">
-                    <div class="logo-texts">Музика</div>
+                    <img class="categories-logos wow fadeInDown animated" id="music-logo" src="Categories-logos/music-logo.png" alt="Music logo">
+                    <div class="logo-texts wow fadeInDown animated">Музика</div>
                 </div></a>
                 <a href="pop-ups/heath-fitness-apps/index.html"><div class="all-categories" id="health">
-                    <img class="categories-logos" id="sport-logo" src="Categories-logos/sport-logo.png" alt="Sport apps logo">
-                    <div class="logo-texts">Здраве и фитнес</div>
+                    <img class="categories-logos wow fadeInDown animated" id="sport-logo" src="Categories-logos/sport-logo.png" alt="Sport apps logo">
+                    <div class="logo-texts wow fadeInDown animated">Здраве и фитнес</div>
                 </div></a>
                 <a href="#"><div class="all-categories" id="personalization">
-                    <img class="categories-logos" id="personalization-logo" src="Categories-logos/personalization-logo.png" alt="Personalization logo">
-                    <div class="logo-texts">Персонализиране</div>
+                    <img class="categories-logos wow fadeInDown animated" id="personalization-logo" src="Categories-logos/personalization-logo.png" alt="Personalization logo">
+                    <div class="logo-texts wow fadeInDown animated">Персонализиране</div>
                 </div></a>            
                 <a href="#"><div class="all-categories" id="navigation">
-                    <img class="categories-logos" id="GPS-logo" src="Categories-logos/GPS-logo.png" alt="Navigation logo">
-                    <div class="logo-texts">Навигация и GPS</div>
+                    <img class="categories-logos wow fadeInDown animated" id="GPS-logo" src="Categories-logos/GPS-logo.png" alt="Navigation logo">
+                    <div class="logo-texts wow fadeInDown animated">Навигация и GPS</div>
                 </div></a>
         </div>
     </div>
@@ -134,44 +143,44 @@ require_once("models/header.php");
             <div class="categories_text"><i class="fa fa-user" id="icon-categories"></i>За мен</div>
         </div>
     <div class="">
-      <h3 class="section-subheading text-muted inf-text">Информация за учебния ми прогрес и любими занимания</h3>
+      <h3 class="section-subheading text-muted inf-text wow fadeInDown animated">Информация за учебния ми прогрес и любими занимания</h3>
             
       </div>
       <div class="row text-center for-me-div">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x text-primary wow fadeInDown animated"></i>
+                        <i class="fa fa-home fa-stack-1x fa-inverse wow fadeInDown animated"></i>
                     </span>
-                    <h4 class="service-heading">Начално училище</h4>
-                    <p class="text-muted">I-IV клас завърших с отличие</p>
+                    <h4 class="service-heading wow fadeInDown animated">Начално училище</h4>
+                    <p class="text-muted wow fadeInDown animated">I-IV клас завърших с отличие</p>
                     <div class="effect-container">
-                        <img class="school img-style row1 img-rounded" src="school-img/sec-school.png">
+                        <img class=" wow fadeInDown animated school img-style row1 img-rounded" src="school-img/sec-school.png">
                     </div>
                    
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-university fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x text-primary wow fadeInDown animated"></i>
+                        <i class="fa fa-university fa-stack-1x fa-inverse wow fadeInDown animated"></i>
                     </span>
-                    <h4 class="service-heading">Основно училище</h4>
-                    <p class="text-muted">В момента уча в СОУ "Васил Левски"</p>
-                     <div class="meffect-container">
-                        <img class="school img-style row1 img-rounded " src="school-img/sec-school.png">
+                    <h4 class="service-heading wow fadeInDown animated">Основно училище</h4>
+                    <p class="text-muted wow fadeInDown animated">В момента уча в СОУ "Васил Левски"</p>
+                     <div class="meffect-container wow fadeInDown animated">
+                        <img class=" wow fadeInDown animated school img-style row1 img-rounded " src="school-img/sec-school.png">
                     </div>
                 
                 
       </div>
           <div class="col-md-4">
                     <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-circle fa-stack-2x text-primary wow fadeInDown animated"></i>
+                        <i class="fa fa-smile-o fa-stack-1x fa-inverse wow fadeInDown animated"></i>
                     </span>
-                    <h4 class="service-heading">В свободното си време</h4>
-                    <p class="text-muted inter">Интересувам се от фотография, технологии и иновативни джаджи.</p>
-                     <div class="meffect-container">
-                        <img class="school img-style row1 img-rounded " src="school-img/smart-photo.JPG">
+                    <h4 class="service-heading wow fadeInDown animated">В свободното си време</h4>
+                    <p class="text-muted inter wow fadeInDown animated">Интересувам се от фотография, технологии и иновативни джаджи.</p>
+                     <div class="meffect-container wow fadeInDown animated">
+                        <img class="school wow fadeInDown animated img-style row1 img-rounded " src="school-img/smart-photo.JPG">
                     </div>
                 
                 
@@ -182,15 +191,15 @@ require_once("models/header.php");
         <div class="container foot">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Georgi Arnaudov</span>
+                    <span class="copyright wow wobble animated">Copyright &copy; Georgi Arnaudov</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/Georgi_96_" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <li><a href="https://twitter.com/Georgi_96_" target="_blank"><i class="fa fa-twitter wow wobble animated"></i></a>
                         </li>
-                        <li><a href="https://www.facebook.com/bgapp1" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <li><a href="https://www.facebook.com/bgapp1" target="_blank"><i class="fa fa-facebook wow wobble animated"></i></a>
                         </li>
-                        <li><a href="https://www.linkedin.com/profile/edit?trk=nav_responsive_sub_nav_edit_profile" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.linkedin.com/profile/edit?trk=nav_responsive_sub_nav_edit_profile" target="_blank"><i class="fa fa-linkedin wow wobble animated"></i></a>
                         </li>
                     </ul>
                 </div>

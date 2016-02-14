@@ -92,7 +92,7 @@ echo resultBlock($errors,$successes);
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap Registration Form Template</title>
+        <title>Регистрация</title>
 
         <!-- CSS -->
         <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -102,6 +102,13 @@ echo resultBlock($errors,$successes);
 		    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
+            <link href="css/animate.css" rel="stylesheet">
+    
+        <script src='js/wow.min.js'></script>
+
+    <script>
+        new WOW().init();
+    </script>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -125,23 +132,23 @@ echo resultBlock($errors,$successes);
         <div class="top-content">
             <div class="inner-bg">
                 <div class="container">
-                    <div class="row">
+                    <div class="row register-name">
                         <div class="col-sm-8 col-sm-offset-2 text">
-                            <h1>Регистрирайте се!</h1>
+                            <h1 class="fadeInDown animated">Регистрирайте се!</h1>
                             <div class="description">
-                            	<p>Създайте свой профил и го управлявайте напълно безплатно :&#41;</p>
+                            	<p class="fadeInDown animated">Създайте свой профил и го управлявайте напълно безплатно :&#41;</p>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                     	<div class="col-sm-6 phone">
-                    		<img src="assets/img/iphone.png" alt="">
+                    		<img class="iphone" src="assets/img/iphone.png" alt="">
                     	</div>
                         <div class="col-sm-5 form-box">
                         	<div class="form-top">
                         		<div class="form-top-left">
-                        			<h3>Регистрация</h3>
-                            		<p>Попълнете формата отдолу за да се регистрирате.</p>
+                        			<h3 class="fadeInDown animated">Регистрация</h3>
+                            		<p class="fadeInDown animated">Попълнете формата отдолу за да се регистрирате.</p>
                         		</div>
                         		<div class="form-top-right">
                         			<i class="fa fa-pencil"></i>

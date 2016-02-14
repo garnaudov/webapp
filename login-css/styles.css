@@ -19,7 +19,7 @@ body {
 
 #back-img {
     position: absolute;
-    width: 100%;
+    width: auto;
     height: auto;
 }
 .register-text {
@@ -36,6 +36,9 @@ body {
     }
         
 }
-@media only screen and (max-width: 767px){
-    .img
-}
+@media (max-width: 862px) {
+    #back-img {
+        min-height: 100%;
+    }
+    }
+    

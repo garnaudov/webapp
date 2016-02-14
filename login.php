@@ -97,6 +97,14 @@ echo resultBlock($errors,$successes);
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="login-assets/login-css/bootstrap.min.css" rel="stylesheet">
+            <link href="css/animate.css" rel="stylesheet">
+    
+        <script src='js/wow.min.js'></script>
+
+    <script>
+        new WOW().init();
+    </script>
+        
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -107,7 +115,7 @@ echo resultBlock($errors,$successes);
     <img src="backimg.jpg" class="img-responsive" id="back-img">
 <?php include("left-nav.php"); ?>
   <div class="modal-dialog">
-  <div class="modal-content login-container">
+  <div class="modal-content login-container wow fadeInDown animated">
       <div class="modal-header">
           <h1 class="text-center" id="login-text">Влезте</h1>
       </div>

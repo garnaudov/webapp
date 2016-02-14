@@ -159,6 +159,14 @@ img { max-width: 100%; }
 
 }
 
+@media (max-width: 752px) {
+
+    .iphone {
+        margin-top: 60px;
+    }
+
+}
+
 
 /* Retina-ize images/icons */
 
