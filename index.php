@@ -21,6 +21,7 @@ require_once("models/header.php");
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -127,9 +128,88 @@ require_once("models/header.php");
                 </div></a>
         </div>
     </div>
+        
+  <div class="for-me-container">
+        <div class="for-me-tile"> 
+            <div class="categories_text"><i class="fa fa-user" id="icon-categories"></i>За мен</div>
+        </div>
+    <div class="">
+      <h3 class="section-subheading text-muted inf-text">Информация за учебния ми прогрес и любими занимания</h3>
+            
+      </div>
+      <div class="row text-center for-me-div">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-home fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Начално училище</h4>
+                    <p class="text-muted">I-IV клас завърших с отличие</p>
+                    <div class="effect-container">
+                        <img class="school img-style row1 img-rounded" src="school-img/sec-school.png">
+                    </div>
+                   
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-university fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Основно училище</h4>
+                    <p class="text-muted">В момента уча в СОУ "Васил Левски"</p>
+                     <div class="meffect-container">
+                        <img class="school img-style row1 img-rounded " src="school-img/sec-school.png">
+                    </div>
+                
+                
+      </div>
+          <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">В свободното си време</h4>
+                    <p class="text-muted inter">Интересувам се от фотография, технологии и иновативни джаджи.</p>
+                     <div class="meffect-container">
+                        <img class="school img-style row1 img-rounded " src="school-img/smart-photo.JPG">
+                    </div>
+                
+                
+      </div>
+        </div>
 
-</div>
-      
+                <footer>
+        <div class="container foot">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Georgi Arnaudov</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/Georgi_96_" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/bgapp1" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/profile/edit?trk=nav_responsive_sub_nav_edit_profile" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <p>Използвани източници:</p>
+                    <ul class="list-inline">
+                        <li><a href="http://hicomm.bg/" target="_blank">HiComm</a>
+                        </li>
+                        <li><a href="http://hicomm.bg/magazine/smartapps_archive" target="_blank">Списания "Smart Apps"</a>
+                        </li></br>
+                    <li><a href="https://play.google.com/store" target="_blank">Google Play Store</a>
+                        </li>
+                        <li><a href="https://www.microsoft.com/en-us/windows/apps-and-games" target="_blank">Winodws Store</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>   
       
       
           

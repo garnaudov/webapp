@@ -93,18 +93,18 @@ echo resultBlock($errors,$successes);
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
-		<title>Bootstrap Login Form</title>
+		<title>Влезте</title>
 		<meta name="generator" content="Bootply" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link href="login-assets/login-css/bootstrap.min.css" rel="stylesheet">
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="login-assets/login-css/styles.css" rel="stylesheet">
+		<link href="login-css/styles.css" rel="stylesheet">
 	</head>
-<!--login modal-->
 
 <div id="loginModal" class="modal show"  role="dialog" aria-hidden="true">
+    <img src="backimg.jpg" class="img-responsive" id="back-img">
 <?php include("left-nav.php"); ?>
   <div class="modal-dialog">
   <div class="modal-content login-container">
@@ -120,7 +120,7 @@ echo resultBlock($errors,$successes);
               <input type='password' name='password' class="form-control input-lg" placeholder="Парола">
             </div>
             <div class="form-group">
-              <button  type='submit' value='Login' class='submit' class="btn btn-primary btn-lg btn-block">Влезте</button>
+              <button  type='submit' value='Login' class="btn btn-primary btn-lg btn-block submit">Влезте</button>
               <span class="pull-right register-text"><a href="register.php">Регистритрайте се</a></span>
               <span class="pull-left register-text"><a href="#">Забравена парола</a></span>
               <span class="pull-left register-text" id="activate-mail"><a href="#">Препрати активиращ и-мейл</a></span>

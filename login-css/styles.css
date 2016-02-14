@@ -2,3 +2,40 @@
 .login-container {
     overflow: hidden;
 }
+
+.modal-footer {   border-top: 0px; }
+
+body {
+
+        background-image: url(images/background-photo-mobile-devices.jpg);
+    font-family: "Microsoft JhengHei UI Light";
+    overflow: hidden;
+}
+
+
+.login-container {
+    overflow: hidden;
+}
+
+#back-img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+.register-text {
+    padding-top: 7px;
+}
+
+#activate-mail {
+    padding-left: 55px;
+}
+
+@media (max-width: 542px) {
+    .register-text {
+        padding-left: inherit !important;
+    }
+        
+}
+@media only screen and (max-width: 767px){
+    .img
+}
